@@ -1,13 +1,12 @@
 
-# 📌 Projeto Telecom X - Parte 2: Modelagem Preditiva de Churn
 
-## 🎯 Propósito da Análise
+## Propósito da Análise
 O objetivo desta segunda parte do projeto é **desenvolver modelos preditivos capazes de identificar clientes com maior probabilidade de cancelar os serviços da Telecom X**.  
 A previsão do **churn** (evasão de clientes) permite que a empresa antecipe ações estratégicas de retenção, reduzindo perdas financeiras e melhorando a satisfação do cliente.
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 - `telecomx_churn_modelagem.ipynb` → Notebook principal com o pipeline de modelagem preditiva.  
 - `dados_tratados.csv` → Conjunto de dados tratado na Parte 1 (ETL e EDA), utilizado como entrada para a modelagem.  
 - `visualizacoes/` → Pasta opcional para armazenar gráficos gerados durante a análise.  
@@ -15,7 +14,7 @@ A previsão do **churn** (evasão de clientes) permite que a empresa antecipe a�
 
 ---
 
-## 🛠️ Preparação dos Dados
+## Preparação dos Dados
 ### Classificação das variáveis
 - **Numéricas**: colunas como `tenure`, `MonthlyCharges`, `TotalCharges`.  
 - **Categóricas**: colunas como `Contract`, `PaymentMethod`, `InternetService`.  
@@ -27,7 +26,7 @@ A previsão do **churn** (evasão de clientes) permite que a empresa antecipe a�
 
 ---
 
-## 🤖 Modelagem Preditiva
+## Modelagem Preditiva
 Foram testados dois algoritmos principais:  
 - **Regressão Logística** → modelo baseline, simples e interpretável.  
 - **Random Forest** → modelo de árvore de decisão mais robusto, capaz de capturar relações não-lineares.  
@@ -39,7 +38,7 @@ Foram testados dois algoritmos principais:
 
 ---
 
-## 📊 Exemplos de Insights (EDA + Modelagem)
+## Exemplos de Insights (EDA + Modelagem)
 - Clientes com **contratos mensais** têm maior propensão ao churn.  
 - **Tempo de permanência baixo (tenure)** aumenta as chances de cancelamento.  
 - **Mensalidades mais altas** estão associadas a maior evasão.  
@@ -52,7 +51,7 @@ Gráficos incluídos no notebook:
 
 ---
 
-## ▶️ Instruções de Execução
+##  Instruções de Execução
 1. Certifique-se de ter o Python 3 instalado.  
 2. Instale as dependências necessárias:  
    ```bash
@@ -63,7 +62,7 @@ Gráficos incluídos no notebook:
 
 ---
 
-## ✅ Conclusão Estratégica
+## Conclusão Estratégica
 Os principais fatores que influenciam a evasão foram:  
 - Tipo de contrato (mensal).  
 - Tempo de permanência baixo.  
